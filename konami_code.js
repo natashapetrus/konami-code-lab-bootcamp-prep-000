@@ -4,10 +4,10 @@ let index = 0;
 
 function init() {
   const key = parseInt(e.detail || e.which);
- 
+
   if (key === code[index]) {
     index++;
- 
+
     if (index === code.length) {
       alert("Congrats!");
       index = 0;
