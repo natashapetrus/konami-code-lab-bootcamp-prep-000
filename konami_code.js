@@ -8,7 +8,7 @@ function init() {
     if(key === code[index]) {
       index++;
       if (index === code.length) {
-        alert('cool');
+        alert('Congrats!');
         index = 0;
       }
     } else {
